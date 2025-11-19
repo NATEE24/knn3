@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-st.header('kairung')
-#st.image("./img/TEE.jpg")
+st.header('Natee')
+st.image("./img/TEE.jpg")
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -79,4 +79,5 @@ if st.button("ทำนายผล"):
    else:
     st.image("./img/iris3.jpg")
 else:
+
     st.write("ไม่ทำนาย")
